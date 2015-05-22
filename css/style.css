@@ -237,8 +237,15 @@ ul {
       .social .buttons .button-container .git {
         background-position: 43px 0px; }
 
-.fork {
+.fork-image {
   background: url("../images/fork-background.jpg") center;
+  position: absolute;
+  width: 100%;
+  height: 1662px; }
+
+.fork {
+  position: relative;
+  background: #4b3b4e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -294,8 +301,7 @@ ul {
     .fork .prices .price {
       background-color: rgba(255, 255, 255, 0.1);
       padding-bottom: 40px;
-      margin-top: 50px;
-      margin-bottom: 50px; }
+      margin-top: 50px; }
       .fork .prices .price .price-title {
         font-size: 24px;
         text-transform: uppercase;
