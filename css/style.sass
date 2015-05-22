@@ -1,0 +1,526 @@
+/* LIB */
+
+*
+	padding: 0
+	margin: 0
+
+body
+	font-family: 'Roboto', sans-serif
+	font-size: 16px
+
+.left
+	float: left
+
+.right
+	float: right
+
+ul
+	list-style: none
+
+a
+	color:inherit
+
+/* END OF LIB */
+
+/* HEADER */
+$main-color: #8d81ac
+
+.header
+	
+
+.header-menu
+	padding: 30px 0
+
+.menu-logo
+	font-size: 24px
+	text-transform: uppercase
+
+	.logo-name
+		display: inline
+
+		span
+			color: $main-color
+
+.menu-nav
+	
+	.toggle
+		display: none
+
+		i
+			font-size: 30px
+			font-size: 30px
+			padding-top: 5px
+			padding-bottom: 5px
+			padding-left: 25px
+			margin-left: 25px
+			cursor: pointer
+	ul
+		padding-top: 10px
+
+	a:hover,
+	a:focus
+		color: $main-color
+
+	li
+		color: $main-color
+		margin-left: 35px
+		display: inline-block
+		
+.button-nav
+	width: 140px
+	height: 40px
+	color: white
+	margin-left: 35px
+	background: $main-color
+	border-radius: 22px
+	border: none
+
+.header-content
+	text-align: center
+	background: #81779d url(../images/header-background.jpg) center
+	padding-top: 110px
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-ms-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+
+	.content-title
+		font-size: 82px
+		color: white
+
+	.content-descr
+		font-size: 30px
+		color: $main-color
+	
+	.content-version
+		color: #848e97
+		text-transform: uppercase
+	
+	button
+		position: relative
+		top: 50px
+		font-size: 21px
+		color: white
+		margin-top: 470px
+		padding: 18px 0px 16px 0px
+		background: $main-color
+		-webkit-border-radius: 45px
+		-moz-border-radius: 45px
+		-ms-border-radius: 45px
+		-o-border-radius: 45px
+		border-radius: 45px
+		border: none
+
+	.button-descr
+		position: relative
+		font-size: 14px
+		color: #848e97
+		top: 65px
+
+.content-editor
+	text-align: center
+	padding-top: 130px
+	padding-bottom: 40px
+
+	.editor-name
+		font-size: 54px
+		color: #635c73
+		text-transform: uppercase
+
+	.editor-quote
+		font-size: 21px
+		color: #6d6d6d
+		margin-top: 15px
+
+/* END OF HEADER */
+
+/* FEATURES */
+
+.features
+	padding-top: 90px
+	
+	background: #f4f4f4
+
+	.feature
+		padding: 17px 0px 20px 120px
+
+		.feature-title
+			color: #323232
+
+		.feature-descr
+			font-size: 14px
+			color: #848e97
+			padding-top: 20px
+
+	.features-img-title
+		font-size: 48px
+		color: $main-color
+		padding-left: 15px
+
+	.features-img
+		position: relative
+		top: 50px
+		left: 15px
+		height: 580px
+		background: url('../images/features-background.jpg')
+		background-size: cover
+
+	.icon1
+		background: url('../img/feature-icon1.png') 0px 22px no-repeat
+	.icon2
+		background: url('../img/feature-icon2.png') 0px 22px no-repeat
+
+	.icon3
+		background: url('../img/feature-icon3.png') 0px 22px no-repeat
+
+	.icon4
+		background: url('../img/feature-icon4.png') 0px 22px no-repeat
+
+/* END OF FEATURES */
+
+/* SOCIAL */
+.twitter 
+	color: $main-color
+
+.social
+	padding-top: 85px
+
+	.carousel
+		position: relative
+		z-index: 5
+
+		.item
+			padding-bottom: 55px
+			position: relative
+			
+			.social-author
+				padding-top: 20px
+				padding-bottom: 20px
+
+				.author-name
+					font-size: 24px
+					color: #635c73
+
+				img
+					margin-right: 25px
+					margin-top: -15px
+
+			.social-quote
+				font-size: 20px
+				padding-top: 50px
+				text-align: center
+
+			.social-time
+				text-align: center
+				color: #848e97
+				padding-top: 25px
+
+	.customNavigation
+		font-size: 30px
+		color: #b3b3b3		
+		
+		cursor: pointer
+
+		.prev
+			position: absolute
+			left: 20px
+			top: 50%
+			z-index: 10
+
+		.next
+			position: absolute
+			right: 20px
+			top: 50%
+			z-index: 10
+
+		.btn:hover
+			transform: scale(1.2)
+
+	hr
+		width: 65%
+		margin: 0 auto
+
+	.buttons
+		padding-top: 60px
+		padding-bottom: 70px
+		text-align: center
+
+		.button-container
+			display: inline-block
+			position: relative
+
+			.button
+				font-size: 21px
+				color: white
+				width: 240px
+				height: 50px
+				margin-left: 40px
+				border: none
+				-webkit-border-radius: 4px
+				-moz-border-radius: 4px
+				-ms-border-radius: 4px
+				-o-border-radius: 4px
+				border-radius: 4px
+
+			.button-git
+				color: black
+				background: #f3f3f3
+
+			.button-tw
+				background: #26a6d1
+
+			.button-fb
+				background: #3b5998
+
+			.count
+				font-size: 14px
+				color: #848e97
+				padding-top: 20px
+				padding-bottom: 10px
+				padding-left: 35px
+
+			.button-image
+				position: absolute
+				background: url('../img/button-image.png')
+				height: 20px
+				width: 20px
+				left: 65px
+				top: 15px
+
+			.fb
+				background-position: 20px 0px
+
+			.git
+				background-position: 43px 0px
+
+.fork
+	background: url('../images/fork-background.jpg') center
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-ms-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	padding-bottom: 80px
+
+	.fork-title
+		font-size: 48px
+		color: white
+		text-align: center
+
+	.first
+		padding-top: 100px
+			
+	.fork-methods
+		color: white
+		padding-top: 75px
+		text-align: center
+
+		.logo1,
+		.logo2,
+		.logo3
+			padding-top: 90px
+
+		.logo4,
+		.logo5,
+		.logo6
+			padding-top: 65px
+			margin-top: 105px
+
+		.logo1
+			background: url(../img/methor-logo1.png) center 10px no-repeat
+		.logo2
+			background: url(../img/methor-logo2.png) center 5px no-repeat
+
+		.logo3
+			background: url(../img/methor-logo3.png) center 0px no-repeat
+
+		.logo4
+			background: url(../img/methor-logo4.png) center top no-repeat
+
+		.logo5
+			background: url(../img/methor-logo5.png) center top no-repeat
+
+		.logo6
+			background: url(../img/methor-logo6.png) center top no-repeat
+
+	.last
+		padding-top: 80px
+
+	hr
+		width: 70%
+		margin: 0 auto
+		opacity: 0.2
+		margin-top: 90px
+
+	.prices
+		color: white
+		padding-top: 75px
+		text-align: center
+
+		.price:hover
+			background-color: rgba(0, 0, 0, 0.1)
+
+		.price:hover .price-title
+			background-color: rgba(0, 0, 0, 0.2)
+			
+
+
+
+		.price
+			background-color: rgba(255, 255, 255, 0.1)
+			padding-bottom: 40px
+			margin-top: 50px
+			margin-bottom: 50px
+
+			.price-title
+				font-size: 24px
+				text-transform: uppercase
+				padding: 45px 0px 35px
+				background-color: rgba(255, 255, 255, 0.1)
+
+			.price-num
+				font-size: 60px
+				padding-top: 35px
+
+			.price-month
+				font-size: 14px
+				text-transform: uppercase
+				opacity: 0.2
+				padding-top: 25px
+
+			hr
+				width: 20%
+				height: 4px
+				background-color: #8d81ac
+				margin-top: 40px
+				opacity: 1
+				border: none
+
+			.price-license
+				padding: 30px 44px 0px 44px
+
+			.price-purchase
+				font-size: 15px
+				text-transform: uppercase
+				width: 160px
+				height: 40px
+				margin-top: 40px
+				background-color: rgba(255, 255, 255, 0.2)
+				border: none
+				-webkit-border-radius: 45px
+				-moz-border-radius: 45px
+				-ms-border-radius: 45px
+				-o-border-radius: 45px
+				border-radius: 45px
+
+	.fork-descr
+		font-size: 14px
+		color: #a291a5
+		margin-top: 80px
+		text-align: center
+
+.subscribe
+	background: #f4f4f4
+	padding: 45px 0px
+
+	.subscribe-title
+		font-size: 30px
+		color: #635c73
+
+	.email
+		font-size: 13px
+		padding-left: 30px
+		border: none
+		width: 335px
+		height: 40px
+		-webkit-border-radius: 25px
+		-moz-border-radius: 25px
+		-ms-border-radius: 25px
+		-o-border-radius: 25px
+		border-radius: 25px
+	
+	.subscribe-button
+		color: white
+		text-transform: uppercase
+		width: 140px
+		height: 40px
+		margin-left: 20px
+		background: $main-color
+		border: none
+		border-radius: 25px
+
+.footer
+	padding-bottom: 100px
+
+	.columns
+		padding-top: 80px
+
+	.column
+		padding-right: 30px
+
+		.column-main-title
+			font-size: 28px
+			color: #d3d1da
+			padding-bottom: 15px
+
+		.column-title
+			font-size: 16px
+			color: $main-color
+			padding-top: 35px
+
+		.column-descr
+			font-size: 13px
+			color: #848e97
+			padding-top: 15px
+
+		.column-button
+			font-size: 14px
+			color: $main-color
+			background: #f4f4f4
+			padding: 13px 30px 9px 24px
+			margin-top: 30px
+			border: none
+			-webkit-border-radius: 4px
+			-moz-border-radius: 4px
+			-ms-border-radius: 4px
+			-o-border-radius: 4px
+			border-radius: 4px
+
+	hr
+		margin-top: 80px
+
+	.about
+		padding-top: 45px
+		
+		.about-descr
+			font-size: 14px
+			color: #848e97
+			padding-top: 20px
+
+		.about-nav-title
+			padding-bottom: 20px
+			padding-left: 35px
+
+		.about-nav a
+			display: block
+
+		.cont-num
+			font-size: 30px
+
+		.cont-hours
+			font-size: 12px
+			color: #848e97
+
+		.cont-city
+			padding-top: 30px
+
+		.cont-addr
+			font-size: 14px
+			color: #848e97
+			padding-top: 10px
+
+		.info-descr
+			font-size: 14px
+			color: #848e97
+			padding-top: 14px
