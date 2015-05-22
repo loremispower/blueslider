@@ -43,11 +43,13 @@ ul {
   padding-top: 10px; }
 .menu-nav a:hover,
 .menu-nav a:focus {
-  color: #8d81ac; }
-.menu-nav li {
   color: #8d81ac;
+  text-decoration: none; }
+.menu-nav li {
   margin-left: 35px;
   display: inline-block; }
+  .menu-nav li a {
+    color: #8d81ac; }
 
 .button-nav {
   width: 140px;
@@ -403,7 +405,7 @@ ul {
     .footer .about .about-nav-title {
       padding-bottom: 20px;
       padding-left: 35px; }
-    .footer .about .about-nav a {
+    .footer .about .about-nav li {
       display: block; }
     .footer .about .cont-num {
       font-size: 30px; }
@@ -419,6 +421,6 @@ ul {
     .footer .about .info-descr {
       font-size: 14px;
       color: #848e97;
-      padding-top: 14px; }
+      padding-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */
